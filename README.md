@@ -7,6 +7,7 @@ Most of programs are written in shell.
 
 ***************** Assignmnet: 2******************
 Shell is created to fork and run the terraform code to deploy EKS on AWS. 
+
 Prerequisite : 
     Installed packages : AWScli/terraform/kubectl/aws iam authenticator.
     Aws credentials(secret key/access key) is configured on Centos/Redhat linux machine 
