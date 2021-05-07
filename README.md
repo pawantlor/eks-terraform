@@ -1,4 +1,5 @@
 ***************** Assignmnet: 1******************
+
 Most of programs are written in shell.
 1. For writing the hostname , Created hostname.sh
 2. Same hostname.sh is dockerized, Created Dockerfile for same.
@@ -6,6 +7,7 @@ Most of programs are written in shell.
 
 
 ***************** Assignmnet: 2******************
+
 Shell is created to fork and run the terraform code to deploy EKS on AWS. 
 
 Prerequisite : 
@@ -18,4 +20,5 @@ Prerequisite :
    KUBECONFIG=./kubeconfig_my-cluster kubectl get nodes --all-namespaces
    
  ***************** Assignmnet: 3******************
+ 
  All answers in answers.txt file.
