@@ -1,0 +1,25 @@
+1. How do you backup an EC2 instance?
+
+Ans: We can backup AWs ec2 in two ways: 
+	1. Take EBS snapshot acording to requirement.
+	2. Create AMI of EC2 instance. It also has EBS snapshot. (So this is more preferable)
+
+How do you secure s3 bucket?
+
+Ans: 
+There are multiple ways to secure :
+	1. Limiting IAM User Permissions
+	2. Restricting S3 Access Using Bucket Policies
+	3. Using Amazon S3 Block Public Access
+	4. You can have encryption to s3
+	5. Access control List is also one of the way.
+	6. Applying monitoring to s3 buckets.
+
+Why do we make subnets
+
+Ans: 
+There are multiple reasons: 
+	1. It gives us security.
+	2. Better Network Performance
+	3. Easier to administrate
+	4. Less Network Congetsion
