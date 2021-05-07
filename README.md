@@ -9,11 +9,12 @@ Most of programs are written in shell.
 Shell is created to fork and run the terraform code to deploy EKS on AWS. 
 
 Prerequisite : 
-        Installed packages : AWScli/terraform/kubectl/aws iam authenticator.
-        Aws credentials(secret key/access key) is configured on Centos/Redhat linux machine 
-        Run ci-cd.sh to install cluster.
+        1. Installed packages : AWScli/terraform/kubectl/aws iam authenticator.
+        2. Aws credentials(secret key/access key) is configured on Centos/Redhat linux machine 
+        3. Run ci-cd.sh to install cluster.
     
-   You can export kube-config file created to check nodes/pods.
+   You can export kube-config file created to connect to cluster.
+   KUBECONFIG=./kubeconfig_my-cluster kubectl get nodes --all-namespaces
    
  ***************** Assignmnet: 3******************
  All answers in answers.txt file.
